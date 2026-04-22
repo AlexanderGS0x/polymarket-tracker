@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
-const GAMMA = "https://gamma-api.polymarket.com";
-const CLOB  = "https://clob.polymarket.com";
+const GAMMA = "https://cors-anywhere.herokuapp.com/https://gamma-api.polymarket.com";
+   const CLOB  = "https://cors-anywhere.herokuapp.com/https://clob.polymarket.com";
 const POLL  = 4000;
 
 const short = a => a ? `${a.slice(0,6)}…${a.slice(-4)}` : "???";
